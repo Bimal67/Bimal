@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <h1 class="text-xl font-bold tracking-tighter">Bimal Prasad Bhusal</h1>
+        <div class="space-x-6 text-sm font-medium">
+            <a href="#work" class="hover:text-blue-600 transition">Work</a>
+            <a href="#about" class="hover:text-blue-600 transition">About</a>
+            <a href="#contact" class="bg-black text-white px-4 py-2 rounded-full">Contact</a>
+        </div>
+    </nav>
+
+    <header class="max-w-6xl mx-auto px-6 py-24 md:py-32">
+        <h2 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+            Building digital experiences <br> with <span class="text-[#27CCCC]">Purpose.</span>
+        </h2>
+        <p class="text-xl text-slate-600 max-w-2xl mb-8">
+            Hi, I'm Bimal. I’m a developer focused on creating clean, functional, and user-centered app/web. 
+        </p>
+    </header>
+
+    <section id="work" class="max-w-6xl mx-auto px-6 py-24">
+    <div class="flex items-center gap-4 mb-16">
+        <h3 class="text-xs font-bold uppercase tracking-[0.3em] text-slate-500 whitespace-nowrap">Selected Projects</h3>
+        <div class="h-[1px] w-full bg-slate-200"></div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-16">
+        
+        <div class="group cursor-pointer">
+            <div class="relative aspect-[16/10] rounded-sm overflow-hidden border border-slate-100 mb-6 bg-slate-50">
+                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/5 transition-colors duration-500 z-10"></div>
+                
+                <div class="w-full h-full flex items-center justify-center p-12">
+                    <div class="bg-gradient-to-tr from-slate-100 to-slate-200 group-hover:scale-105 transition-transform duration-700 ease-out flex items-center justify-center">
+                        <img src="logo.png" alt="Mobile App Screenshot" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+                    </div>
+                </div>
+
+                <div class="absolute bottom-4 left-4 z-20 overflow-hidden">
+                    <div class="translate-y-full group-hover:translate-y-0 transition-transform duration-500 bg-white/90 backdrop-blur-md px-3 py-1 text-[10px] font-bold tracking-tighter border border-slate-200">
+                        REACT NATIVE • AZURE • NODE.JS
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex justify-between items-start">
+                <div>
+                    <h4 class="text-2xl font-serif italic text-slate-900 mb-1">Full Stack Mobile Application</h4>
+                    <p class="text-sm text-slate-500 font-light max-w-md leading-relaxed">
+                        Integrated RESTful APIs and deployed via Azure VM. Built with a focus on high-quality UI and smooth navigation.
+                    </p>
+                </div>
+                <span class="text-xs font-mono text-slate-400 mt-2">2025</span>
+            </div>
+        </div>
+
+        <div class="group cursor-pointer">
+            <div class="relative aspect-[16/10] rounded-sm overflow-hidden border border-slate-100 mb-6 bg-slate-50">
+                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/5 transition-colors duration-500 z-10"></div>
+                
+                <div class="w-full h-full flex items-center justify-center p-12">
+                    <div class="w-full h-full bg-gradient-to-tr from-slate-200 to-slate-100 group-hover:scale-105 transition-transform duration-700 ease-out flex items-center justify-center">
+                        <span class="text-[10px] tracking-widest text-slate-400 uppercase font-light">Java Development</span>
+                    </div>
+                </div>
+
+                <div class="absolute bottom-4 left-4 z-20 overflow-hidden">
+                    <div class="translate-y-full group-hover:translate-y-0 transition-transform duration-500 bg-white/90 backdrop-blur-md px-3 py-1 text-[10px] font-bold tracking-tighter border border-slate-200">
+                        JAVA • MYSQL • CRUD
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex justify-between items-start">
+                <div>
+                    <h4 class="text-2xl font-serif italic text-slate-900 mb-1">Movie Ticketing System</h4>
+                    <p class="text-sm text-slate-500 font-light max-w-md leading-relaxed">
+                        A robust back-end implementation handling user registration, seat selection, and complex booking logic.
+                    </p>
+                </div>
+                <span class="text-xs font-mono text-slate-400 mt-2">2024</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="about" class="max-w-6xl mx-auto px-6 py-24 border-t border-slate-100">
+    <div class="grid md:grid-cols-2 gap-16 items-start">
+        
+        <div>
+            <h3 class="text-xs font-bold uppercase tracking-[0.3em] text-slate-400 mb-8">About Me</h3>
+            <h2 class="text-4xl md:text-5xl font-serif italic text-slate-900 mb-6 leading-tight">
+                An IT graduate based in Sydney, focused on building <span class="text-slate-400">performant mobile experiences.</span>
+            </h2>
+            <div class="space-y-4 text-slate-600 font-light leading-relaxed max-w-lg">
+                <p>
+                    I recently completed my <strong class="font-medium text-slate-900">Bachelor of Information Technology</strong> (2023-2025). My journey in tech is driven by a passion for React Native and the challenge of building full-stack applications that solve real-world problems.
+                </p>
+                <p>
+                    From configuring <strong class="font-medium text-slate-900">Azure Virtual Machines</strong> for backend deployment to crafting smooth UIs with <strong class="font-medium text-slate-900">Tailwind</strong> and <strong class="font-medium text-slate-900">React</strong>, I prioritize user experience and performance optimization in every line of code I write.
+                </p>
+                <p>
+                    I am skilled in Agile methodologies and version control, ensuring that I deliver high-quality code through iterative updates and effective problem-solving.
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-slate-50 p-8 md:p-12 rounded-sm border border-slate-100">
+            <h4 class="text-xs font-bold uppercase tracking-widest text-slate-900 mb-10 border-b border-slate-200 pb-4">Technical Expertise</h4>
+            
+            <div class="grid grid-cols-2 gap-8">
+                <div>
+                    <h5 class="text-[10px] font-bold uppercase text-slate-400 mb-3 tracking-tighter">Languages</h5>
+                    <ul class="text-sm space-y-2 text-slate-800 font-medium">
+                        <li>JavaScript (ES6+)</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-[10px] font-bold uppercase text-slate-400 mb-3 tracking-tighter">Frameworks</h5>
+                    <ul class="text-sm space-y-2 text-slate-800 font-medium">
+                        <li>React Native</li>
+                        <li>Node.js / Express</li>
+                        <li>React</li>
+                        <li>Tailwind</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-[10px] font-bold uppercase text-slate-400 mb-3 tracking-tighter">Tools</h5>
+                    <ul class="text-sm space-y-2 text-slate-800 font-medium">
+                        <li>Azure VM</li>
+                        <li>Git / GitHub</li>
+                        <li>Postman</li>
+                        <li>Android Studio</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-[10px] font-bold uppercase text-slate-400 mb-3 tracking-tighter">Concepts</h5>
+                    <ul class="text-sm space-y-2 text-slate-800 font-medium">
+                        <li>RESTful APIs</li>
+                        <li>MVC / MVP</li>
+                        <li>Agile Workflow</li>
+                        <li>CRUD Ops</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<section id="contact" class="max-w-6xl mx-auto px-6 py-32 border-t border-slate-100">
+    <div class="grid md:grid-cols-2 gap-16 items-center">
+        
+        <div>
+            <h3 class="text-xs font-bold uppercase tracking-[0.3em] text-slate-400 mb-6">Contact</h3>
+            <h2 class="text-5xl md:text-7xl font-serif italic text-slate-900 leading-tight">
+                Let's build the <br> 
+                <span class="text-slate-400">next big thing.</span>
+            </h2>
+        </div>
+
+        <div class="space-y-12">
+            <div>
+                <p class="text-[10px] font-bold uppercase text-slate-400 tracking-widest mb-4">Current Status</p>
+                <div class="flex items-center gap-3">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                    </span>
+                    <p class="text-sm font-medium text-slate-900"></p>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <a href="mailto:bimalbhusal125@gmail.com" class="group block border-b border-slate-200 pb-4 hover:border-slate-900 transition-colors duration-500">
+                    <p class="text-[10px] font-bold uppercase text-slate-400 tracking-widest mb-1">Email</p>
+                    <p class="text-xl font-medium text-slate-900 group-hover:pl-2 transition-all duration-300">bimalbhusal125@gmail.com</p>
+                </a>
+
+                <a href="https://www.linkedin.com/in/bimal-prasad-bhusal-928292273/" target="_blank" class="group block border-b border-slate-200 pb-4 hover:border-slate-900 transition-colors duration-500">
+                    <p class="text-[10px] font-bold uppercase text-slate-400 tracking-widest mb-1">LinkedIn</p>
+                    <p class="text-xl font-medium text-slate-900 group-hover:pl-2 transition-all duration-300">Bimal Prasad Bhusal</p>
+                </a>
+
+                <a href="https://github.com/Bimal67" target="_blank" class="group block border-b border-slate-200 pb-4 hover:border-slate-900 transition-colors duration-500">
+                    <p class="text-[10px] font-bold uppercase text-slate-400 tracking-widest mb-1">GitHub</p>
+                    <p class="text-xl font-medium text-slate-900 group-hover:pl-2 transition-all duration-300">Bimal67</p>
+                </a>
+            </div>
+
+            <a href="cv.pdf" download class="inline-flex items-center gap-4 bg-slate-900 text-white px-8 py-4 rounded-sm text-sm font-bold tracking-widest hover:bg-slate-800 transition-all active:scale-95">
+                DOWNLOAD CV
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+            </a>
+        </div>
+    </div>
+    
+    <div class="mt-32 flex justify-between items-center text-[10px] font-bold uppercase tracking-widest text-slate-400">
+        <p>© 2026 BIMAL P. BHUSAL</p>
+        <p>Built with Tailwind CSS</p>
+    </div>
+</section>
+
+
+    <footer class="max-w-6xl mx-auto px-6 py-5 border-t border-slate-200 mt-12 text-center">
+        <h3 class="text-3xl font-bold mb-4">Let’s work together.</h3>
+        <p class="text-slate-600 mb-8">Currently available for contact for 2026.</p>
+    </footer>
+
+</body>
+</html>
